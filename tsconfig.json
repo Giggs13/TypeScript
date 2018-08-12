@@ -1,8 +1,12 @@
 {
+  "files": [
+    "src/main.ts",
+    "src/greet.ts"
+  ],
   "compilerOptions": {
+    "noImplicitAny": false,
     "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+    "target": "es5"
   },
   "exclude": [
     "node_modules"
