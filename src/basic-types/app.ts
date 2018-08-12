@@ -33,8 +33,8 @@ console.log(x);
 console.log(x[0].substr(-5));
 console.log(x[1].join('`').substring(4));
 
-x[7] = "world"; // OK, 'string' can be assigned to 'string | number'
-console.log(x[7].toString()); // OK, 'string' and 'number' both have 'toString'
+x[7] = "world"; // OK, 'string' can be assigned to 'string | Array<boolean>'
+console.log(x[7].toString()); // OK, 'string' and 'Array<boolean>' both have 'toString'
 console.log(x);
 
 /* Enum */
