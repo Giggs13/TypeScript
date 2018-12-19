@@ -1,0 +1,13 @@
+var myArray;
+myArray = ['Bob', 'Fred'];
+console.log(myArray['1']);
+var myStr = myArray[0];
+var myArray2 = ['Alice', 'Bob'];
+console.log(myArray2['0']);
+var obj = { gender: 'male' };
+obj['name'] = 'Andrej';
+obj['age'] = '32';
+console.log(obj);
+console.log(obj.name);
+console.log(obj.age);
+console.log(obj.gender);
